@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Matthew's Movie Memories</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="../styles/movie-style.css">
+  <!---Used zero-md here to import it-->
+  <script type="module" src="https://cdn.jsdelivr.net/npm/zero-md@3?register"></script>
+
+</head>
+<body>
+  <header>
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0, 0, 0, 0.2)">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../index.html"><i class="bi bi-film"></i> Matthew's Movies</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../index.html">Top 5 Movies Currently</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmattimus11.github.io%2Fspecial-doodle-movies%2Fpages%2Fabout.html" target="_blank">Nu Validation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/mattimus11/special-doodle-movies" target="repo">View Source 
+              <i class="bi bi-code-square"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+<main>About Matthew
+<!--- zero-md down below-->
+<details>
+    <summary >readme about app</summary>
+    <zero-md class="p-3" background-color = 'black' src="../readme.md"></zero-md>
+</details>
+<details>
+<summary>about me</summary>
+    <zero-md src = "https://raw.githubusercontent.com/mattimus11/mattimus11/main/README.md"></zero-md>
+</details>
+</main>
+<footer class="bg-link text-center fixed-bottom">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+      © 2024:
+      <a class="text-dark" href="https://github.com/mattimus11" target=_blank>MTH</a> |
+      <a class="text-dark" href="https://github.com/mattimus11" target=_blank><i class="bi bi-github"></i></a> |
+      <a class="text-dark" href="../readme.md" target="readme">ReadMe</a>
+    </div>
+  </footer>
+  <!--scripts go here-->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.3/jquery-ui.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'>
+    </script><script  src="../scripts/movie-script.js"></script>
+  
+  </body>
+  </html>
+  

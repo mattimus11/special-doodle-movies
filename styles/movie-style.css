@@ -22,4 +22,6 @@ main{
   border-color: black;
   margin: 20px;
   padding: 5px;
+  font-family: Quicksand;
+  font-weight: 500;
 }

@@ -24,8 +24,13 @@ Versions:
 
 ## Made with
 w3cSchools
+
 firefox (goated browser btw)
+
 safarai
+
 vsCode
-ex/ Liveserver
+
+Liveserver
+
 help from barry cumbie
