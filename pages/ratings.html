@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ratings</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.2/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="../styles/movie-style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0, 0, 0, 0.2)">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html"><i class="bi bi-film"></i> Matthew's Movies</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html">Top 5 Movies Currently</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Ratings</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fmattimus11.github.io%2Fspecial-doodle-movies%2Fpages%2Fabout.html" target="_blank">Nu Validation</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../pages/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/mattimus11/special-doodle-movies" target="repo">View Source <i class="bi bi-code-square"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <h2 class="text-center">Movie Ratings</h2>
+        
+        <!-- Buttons for adding and removing movies -->
+        <div class="text-center mb-3">
+            <button id="btnAddMovie" class="btn btn-dark me-2">Add Movie</button>
+            <button id="btnRemoveMovie" class="btn btn-dark">Remove Movie</button>
+        </div>
+        
+        <!-- Movie list -->
+        <ul id="movieList" class="list-group">
+            <!-- Movie list will be  here -->
+        </ul>
+    </main>
+
+    <footer class="bg-link text-center fixed-bottom">
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">
+            © 2024:
+            <a class="text-dark" href="https://github.com/mattimus11" target=_blank>MTH</a> |
+            <a class="text-dark" href="https://github.com/mattimus11" target=_blank><i class="bi bi-github"></i></a> |
+            <a class="text-dark" href="../readme.md" target="readme">ReadMe</a>
+        </div>
+    </footer>
+<!--Scripts-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+    <script src="../scripts/movie-script.js"></script>
+</body>
+</html>
